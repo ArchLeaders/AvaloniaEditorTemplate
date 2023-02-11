@@ -1,0 +1,20 @@
+<UserControl x:Class="AvaloniaEditorTemplate.Views.EditorView"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <Grid Margin="8" RowDefinitions="30,*">
+        <StackPanel Orientation="Horizontal" Spacing="15">
+            <TextBlock Text="Editor:" />
+            <ComboBox Classes="Simple">
+                <ComboBoxItem Content="Editor A" />
+                <ComboBoxItem Content="Editor B" />
+                <ComboBoxItem Content="Editor C" />
+                <ComboBoxItem Content="Editor D" />
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</UserControl>
